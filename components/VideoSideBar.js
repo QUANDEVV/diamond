@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import "./VideoSidebar.css";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
-import MessageIcon from "@material-ui/icons/Message";
+
 import ShareIcon from "@material-ui/icons/Share";
 
 function VideoSidebar({ likes, shares, messages }) {
@@ -23,7 +23,7 @@ function VideoSidebar({ likes, shares, messages }) {
       </div>
       {/* <div className="videoSidebar__button">
         <MessageIcon fontSize="large" />
-        <p>{messages}</p>
+        <p>{}</p>
       </div> */}
       <div className="videoSidebar__button">
         <ShareIcon fontSize="large" />
