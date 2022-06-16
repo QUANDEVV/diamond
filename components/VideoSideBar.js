@@ -21,10 +21,10 @@ function VideoSidebar({ likes, shares, messages }) {
         )}
         <p>{liked ? likes + 1 : likes}</p>
       </div>
-      <div className="videoSidebar__button">
+      {/* <div className="videoSidebar__button">
         <MessageIcon fontSize="large" />
         <p>{messages}</p>
-      </div>
+      </div> */}
       <div className="videoSidebar__button">
         <ShareIcon fontSize="large" />
         <p>{shares}</p>
