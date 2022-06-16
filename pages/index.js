@@ -7,8 +7,8 @@ import NFTCard from '../components/NFTCard';
 import Link from 'next/link'
 import Video from '../components/Video'
 // import SwipeUpIcon from '@mui/icons-material/SwipeUp'
-import VideoSideBar from '../components/VideoSideBar';
-import VideoFooter from '../components/VideoFooter';
+// import VideoSideBar from '../components/VideoSideBar';
+// import VideoFooter from '../components/VideoFooter';
 
 
 
