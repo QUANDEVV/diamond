@@ -6,6 +6,11 @@ import Navbar from '../components/Navbar';
 import '../styles/globals.css';
 import '../styles/VideoFooter.css'
 import '../styles/Video.css';
+import '../styles/VideoSidebar.css';
+
+
+
+// import SwipeUpIcon from '@mui/icons-material/SwipeUp'
 
 
 const MyApp = ({ Component, pageProps }) => (

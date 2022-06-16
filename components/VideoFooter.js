@@ -1,10 +1,27 @@
-import React from 'react'
+import React from "react";
+// import "./VideoFooter.css";
 
-const VideoFooter = () => {
+import Ticker from "react-ticker";
+
+function VideoFooter({ }) {
   return (
-    <div className='videoFooter'>
-    VideoFooter</div>
-  )
+    <div className="videoFooter">
+      <div className="videoFooter__text">
+   
+        <div className="videoFooter__ticker">
+          
+          <Ticker mode="smooth">
+            {({ index }) => (
+              <>
+                <p>Hello world</p>
+              </>
+            )}
+          </Ticker>
+        </div>
+      </div>
+    
+    </div>
+  );
 }
 
-export default VideoFooter
+export default VideoFooter;
