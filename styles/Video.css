@@ -2,7 +2,7 @@
   position: relative;
   /* border: 5px solid rgb(199, 83, 83); */
   /* background-color: white; */
-  height: 500px;
+  height: 100%;
   width: 100%;
   scroll-snap-align: start;
 }
