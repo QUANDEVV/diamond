@@ -6,7 +6,7 @@ import MessageIcon from "@material-ui/icons/Message";
 
 import ShareIcon from "@material-ui/icons/Share";
 
-function VideoSidebar({ likes, shares, messages }) {
+function Sidebar({ likes, shares, messages }) {
   const [liked, setLiked] = useState(false);
 
   return (
@@ -34,4 +34,4 @@ function VideoSidebar({ likes, shares, messages }) {
   );
 }
 
-export default VideoSidebar;
+export default Sidebar;
