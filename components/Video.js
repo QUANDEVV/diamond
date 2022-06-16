@@ -23,6 +23,8 @@ const Video = () => {
     
      <video className="video__player" 
      loop
+     autoPlay
+     muted
      onClick={onVideoPress}
     //  controls
     ref={videoRef}
