@@ -134,12 +134,13 @@ html {
   
   .app__videos {
     position: relative;
-    height: 800px;
+    height: 300px;
     overflow: scroll;
     width: 80%;
     border-radius: 20px;
     scroll-snap-type: y mandatory;
     max-width: 500px;
+    
   
   }
   
