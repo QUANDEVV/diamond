@@ -13,7 +13,7 @@ function VideoFooter({ }) {
           <Ticker mode="smooth">
             {({ index }) => (
               <>
-                <p>Hello world</p>
+                <p>Hello  world</p>
               </>
             )}
           </Ticker>
