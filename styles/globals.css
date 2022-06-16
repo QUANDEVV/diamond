@@ -139,7 +139,7 @@ html {
     width: 80%;
     border-radius: 20px;
     scroll-snap-type: y mandatory;
-    max-width: 500px;
+    max-width: 300px;
     
   
   }
