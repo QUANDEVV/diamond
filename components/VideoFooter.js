@@ -2,7 +2,8 @@ import React from 'react'
 
 const VideoFooter = () => {
   return (
-    <div>VideoFooter</div>
+    <div className='videoFooter'>
+    VideoFooter</div>
   )
 }
 

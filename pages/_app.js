@@ -4,6 +4,7 @@ import { ThemeProvider } from 'next-themes';
 import Navbar from '../components/Navbar';
 
 import '../styles/globals.css';
+import '../styles/VideoFooter.css'
 import '../styles/Video.css';
 
 
